@@ -18,10 +18,6 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "login",
-        element: <Login />,
-      },
-      {
         path: "home",
         element: <Home />,
       },
@@ -50,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: "*",
     element: <NotFound />,
+  },
+  {
+    path: "login",
+    element: <Login />,
   },
 ]);
 
