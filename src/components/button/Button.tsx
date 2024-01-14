@@ -5,7 +5,7 @@ interface ButtonSpecs {
   className?: string;
 }
 
-function Button({children, className}: ButtonSpecs) {
+function Button({children, className = ''}: ButtonSpecs) {
   const defaultClass = "styled-button";
   return(
     <button className={`${defaultClass} ${className}`}>{children}</button>
