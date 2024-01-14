@@ -1,0 +1,7 @@
+.styled-button {
+  min-width: 250px;
+  min-height: 50px;
+  border-radius: 50px;
+  border: 0;
+  background: linear-gradient(90deg, rgba(173,0,255,1) 0%, rgb(0, 220, 255) 100%);
+}

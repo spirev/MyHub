@@ -2,15 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout';
-import Login from './pages/Login';
-import Home from './pages/Home';
-import NotFound from './pages/NotFound';
-import Loading from './components/Loading';
-import Storage from './pages/Storage';
-import PasswordGenerator from './pages/PasswordGenerator';
-import Todo from './pages/Todo';
-import Archives from './pages/Archives';
-import Calendar from './pages/Calendar';
+import Login from './pages/login/Login';
+import Home from './pages/home/Home';
+import NotFound from './pages/notFound/NotFound';
+import Loading from './components/loading/Loading';
+import Storage from './pages/storage/Storage';
+import PasswordGenerator from './pages/passwordGenerator/PasswordGenerator';
+import Todo from './pages/todo/Todo';
+import Archives from './pages/archives/Archives';
+import Calendar from './pages/calendar/Calendar';
 
 const router = createBrowserRouter([
   {
