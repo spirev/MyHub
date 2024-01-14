@@ -5,7 +5,7 @@ import Layout from './Layout';
 import Login from './pages/login/Login';
 import Home from './pages/home/Home';
 import NotFound from './pages/notFound/NotFound';
-import Loading from './components/Loading';
+import Loading from './components/loading/Loading';
 import Storage from './pages/storage/Storage';
 import PasswordGenerator from './pages/passwordGenerator/PasswordGenerator';
 import Todo from './pages/todo/Todo';
