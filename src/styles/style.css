@@ -1,7 +1,19 @@
+@font-face {
+  font-family: 'Varela';
+  src: url('/public/Varela/Varela-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Maven-Pro';
+  src: url('/public/Maven_Pro/MavenPro-VariableFont_wght.ttf') format('truetype');
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: 'Maven-Pro', sans-serif;
+  font-weight: 100;
 }
 
 html {
@@ -15,12 +27,32 @@ body {
   height: 100%;
   background-color: #161829;
   font-size: 1.6rem;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+a {
+  font-size: 1.5rem;
+}
+
+button {
+  font-size: 1.7rem;
+  color: white;
+  font-family: 'Varela';
 }
