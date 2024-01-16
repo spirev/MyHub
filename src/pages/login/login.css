@@ -1,17 +1,62 @@
 .login-page-container {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.desktop-background-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #222641;
+}
+
+.mobile-content-container {
   width: 100%;
   height: 55%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-height: 350px;
   justify-content: space-between;
 }
 
 .action-container {
-  min-height: 95px;
+  min-height: 105px;
   justify-content: space-between;
 }
 
 .demo-link {
   color: rgb(0, 255, 255);
+}
+
+@media screen and (min-width: 600px) {
+  .mobile-content-container {
+    height: 42%;
+  }
+
+  .action-container {
+    min-height: 125px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .desktop-background-container {
+    max-width: 600px;
+    min-width: 500px;
+    max-height: 666px;
+    padding-top: 100px;
+    justify-content: flex-start;
+    border-radius: 8px;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.45);
+  }
+  
+  .mobile-content-container {
+    height: 58%;
+  }
+
+  .action-container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1536px) {
 }
