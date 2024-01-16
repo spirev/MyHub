@@ -1,7 +1,20 @@
 .styled-button {
-  min-width: 250px;
-  min-height: 50px;
+  min-width: 210px;
+  min-height: 42px;
+  font-size: 1.9rem;
+  font-weight: 500;
+  font-family: 'Varela';
+  color: white;
   border-radius: 50px;
   border: 0;
-  background: linear-gradient(90deg, rgba(173,0,255,1) 0%, rgb(0, 220, 255) 100%);
+  background: linear-gradient(90deg, rgba(173,0,255,1) 12%, rgb(0, 220, 255) 100%);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  .styled-button {
+    min-width: 280px;
+    min-height: 48px;
+    font-size: 2.4rem;
+  }
 }
