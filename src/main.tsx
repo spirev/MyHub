@@ -15,6 +15,10 @@ import Calendar from './pages/calendar/Calendar';
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Login />,
+  },
+  {
+    path: "/",
     element: <Layout />,
     children: [
       {

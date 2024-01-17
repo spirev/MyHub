@@ -9,7 +9,7 @@ function Login() {
         <VerticalContainer className="mobile-content-container">
           <h1>Login</h1>
           <VerticalContainer className="action-container">
-            <a className="demo-link">Try the demo profil</a>
+            <a className="demo-link">Try the demo profile</a>
             <Button>Get code</Button>
           </VerticalContainer>
         </VerticalContainer>
