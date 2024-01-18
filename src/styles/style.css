@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Varela';
-  src: url('/public/Varela/Varela-Regular.ttf') format('truetype');
+  src: url('/Varela/Varela-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Maven-Pro';
-  src: url('/public/Maven_Pro/MavenPro-VariableFont_wght.ttf') format('truetype');
+  src: url('/Maven_Pro/MavenPro-VariableFont_wght.ttf') format('truetype');
 }
 
 * {
