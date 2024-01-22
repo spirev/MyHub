@@ -1,3 +1,5 @@
+import "./LoginGroundWaves.css";
+
 function LoginGroundWaves() {
   return (
     <div className = "custom-shape-divider-bottom-1705957456" >
