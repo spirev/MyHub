@@ -1,4 +1,5 @@
 import Button from '../../components/button/Button';
+import LavaLampGround from '../../components/lavaLampGround/LavaLampGround';
 import VerticalContainer from '../../components/verticalContainer/VerticalContainer';
 import './login.css';
 
@@ -14,6 +15,7 @@ function Login() {
           </VerticalContainer>
         </VerticalContainer>
       </VerticalContainer>
+      <LavaLampGround/>
     </VerticalContainer>
   );
 }
