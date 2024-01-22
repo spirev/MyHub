@@ -75,42 +75,6 @@ a {
   body {
     overflow: hidden;
   }
-
-  .custom-shape-divider-bottom-1705957456 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-  }
-
-  .custom-shape-divider-bottom-1705957456 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 126px;
-  }
-
-   .main-stop1 {
-    stop-color: rgb(0, 115, 255);
-  }
-  .alt-stop1 {
-    stop-color: rgb(117, 0, 255);
-  }
-   .main-stop2 {
-    stop-color: rgb(0, 180, 255);
-  }
-  .alt-stop2 {
-    stop-color: rgb(183, 0, 255);
-  }
-   .main-stop3 {
-    stop-color: rgb(0, 225, 255);
-  }
-  .alt-stop3 {
-    stop-color: rgb(230, 0, 255);
-  }
 }
 
 @media screen and (min-width: 1200px) {}

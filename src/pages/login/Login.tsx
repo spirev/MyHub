@@ -1,7 +1,9 @@
 import Button from '../../components/button/Button';
-import LavaLampGround from '../../components/lavaLampGround/LavaLampGround';
+import LoginGroundWaves from './loginGroundWaves/LoginGroundWaves';
 import VerticalContainer from '../../components/verticalContainer/VerticalContainer';
 import './login.css';
+import LoginBubbles from './loginBubbles/LoginBubbles';
+import "./loginBubbles/LoginBubbles.css";
 
 function Login() {
   return (
@@ -15,7 +17,8 @@ function Login() {
           </VerticalContainer>
         </VerticalContainer>
       </VerticalContainer>
-      <LavaLampGround/>
+      <LoginGroundWaves />
+      <LoginBubbles />
     </VerticalContainer>
   );
 }
