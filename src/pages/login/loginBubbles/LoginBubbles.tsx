@@ -6,7 +6,6 @@ function LoginBubbles() {
 
     const createBubble = () => {
       if (!bubblesContainer) return;
-      console.log('create');
       const bubble = document.createElement("div");
       const bubbleSize = Math.floor(Math.random() * 50) + 20;
       const bubblePosition = Math.floor(Math.random() * 100);
