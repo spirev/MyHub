@@ -1,5 +1,5 @@
 This is a web application for my personal use.
-This is a collection of applications that help me in my everyday life.
+This is a collection of applications that help me with my everyday life.
 
 You can find there:
 
