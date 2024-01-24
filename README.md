@@ -3,7 +3,7 @@ This is a collection of applications that help me with my everyday life.
 
 You can find there:
 
-- Storage space
+- Storage space ( unvailable for demo profile )
 - Archives of the technologies I use, summarized by me.
 - A to-do list creator
 - A customizable calendar
