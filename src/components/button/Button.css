@@ -8,6 +8,7 @@
   border: 0;
   background: linear-gradient(90deg, rgba(173,0,255,1) 12%, rgb(0, 220, 255) 100%);
   cursor: pointer;
+  outline: none;
 }
 
 @media screen and (min-width: 600px) {
