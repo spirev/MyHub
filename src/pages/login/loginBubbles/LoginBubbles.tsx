@@ -2,6 +2,9 @@ import { useEffect } from "react";
 
 function LoginBubbles() {
   useEffect(() => {
+    const isDesktopScreen = window.matchMedia('(min-width: 1026px)').matches;
+    if (!isDesktopScreen) return;
+
     const bubblesContainer = document.getElementById("bubbles-container");
 
     const createBubble = () => {
