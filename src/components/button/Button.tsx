@@ -1,17 +1,18 @@
+import React from 'react';
 import "./Button.css";
 
-interface ButtonSpecs {
+interface ButtonSpecs extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: string;
   className?: string;
-  onClick: () => void;
+  disable?: boolean;
 }
 
-function Button({ children, className = '', onClick }: ButtonSpecs) {
+function Button({ children, className = '', disable, ...props }: React.PropsWithChildren<ButtonSpecs>) {
   const defaultClass = "styled-button";
   return (
     <button
-      className={`${defaultClass} ${className}`}
-      onClick={onClick}
+      className={`${defaultClass} ${className} ${disable}`}
+      {...props}
     >
       {children}
     </button>
