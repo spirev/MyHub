@@ -11,6 +11,10 @@
   outline: none;
 }
 
+.disabled {
+  background: linear-gradient(90deg, rgba(207, 207, 207, 1) 12%, rgb(58, 58, 58) 100%);
+}
+
 @media screen and (min-width: 600px) {
   .styled-button {
     min-width: 280px;
