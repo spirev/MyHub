@@ -16,28 +16,9 @@
   justify-content: space-between;
 }
 
-.action-container {
-  min-height: 125px;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-.action-container-code-sent {
-  min-height: 250px;
-  justify-content: space-evenly;
-}
-
-.demo-link {
-  color: rgb(0, 255, 255);
-}
-
 @media screen and (min-width: 600px) {
   .mobile-content-container {
     height: 42%;
-  }
-
-  .action-container {
-    min-height: 125px;
   }
 }
 
@@ -54,10 +35,6 @@
   
   .mobile-content-container {
     height: 58%;
-  }
-
-  .action-container {
-    flex-direction: column-reverse;
   }
 }
 
