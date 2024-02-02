@@ -1,11 +1,10 @@
-import LoginGroundWaves from './loginGroundWaves/LoginGroundWaves';
+import { useState } from 'react';
 import VerticalContainer from '../../components/verticalContainer/VerticalContainer';
 import './login.css';
-import LoginBubbles from './loginBubbles/LoginBubbles';
-import "./loginBubbles/LoginBubbles.css";
-import { useState } from 'react';
 import AccountSelection from './accountSelection/AccountSelection';
 import AuthCode from './authCode/AuthCode';
+import Bubbles from './bubbles/Bubbles';
+import GroundWaves from './groundWaves/GroundWaves';
 
 function Login() {
   const [isCodeSent, setIsCodeSent] = useState(false);
@@ -26,8 +25,8 @@ function Login() {
           )}
         </VerticalContainer>
       </VerticalContainer>
-      <LoginGroundWaves />
-      <LoginBubbles />
+      <GroundWaves />
+      <Bubbles />
     </VerticalContainer>
   );
 }

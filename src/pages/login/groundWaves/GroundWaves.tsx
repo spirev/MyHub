@@ -1,6 +1,6 @@
-import "./LoginGroundWaves.css";
+import "./GroundWaves.css";
 
-function LoginGroundWaves() {
+function GroundWaves() {
   return (
     <div className = "custom-shape-divider-bottom-1705957456" >
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -27,4 +27,4 @@ function LoginGroundWaves() {
   );
 }
 
-export default LoginGroundWaves;
+export default GroundWaves;
